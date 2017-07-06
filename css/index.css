@@ -19,7 +19,7 @@ html,body{
 	height: 100%;
 	overflow: hidden;
 	position: absolute;
-	transition: all 0.3s linear;
+	transition: all 2s linear;
 }
 .page_2{
 	background:white;
@@ -51,11 +51,11 @@ html,body{
 
 .pageUP{
 	transform: translateY(-100%);
-	transition: transform 0.3s linear;
+	transition: transform 2s linear;
 }
 .pageDown{
 	transform: translateY(100%);
-	transition: transform 0.3s linear;
+	transition: transform 2s linear;
 }
 .dh{
 	display: none;
