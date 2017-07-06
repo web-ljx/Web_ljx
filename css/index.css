@@ -51,9 +51,11 @@ html,body{
 
 .pageUP{
 	transform: translateY(-100%);
+	transition: transform 0.3s linear;
 }
 .pageDown{
 	transform: translateY(100%);
+	transition: transform 0.3s linear;
 }
 .dh{
 	display: none;
